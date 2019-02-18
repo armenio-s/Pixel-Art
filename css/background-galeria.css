@@ -1,0 +1,31 @@
+body {
+    background-image: url(../img/background1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    animation: slide 360s cubic-bezier(1,0,0,1) infinite;
+    -webkit-animation: slide 360s cubic-bezier(1,0,0,1) infinite;
+    -moz-animation: slide 360s cubic-bezier(1,0,0,1) infinite;
+}
+
+@keyframes slide {
+    0% {
+        background-image: url(../img/background1.jpg);
+    }
+    20% {
+        background-image: url(../img/background2.jpg);
+    }
+    40% {
+        background-image: url(../img/background3.jpg);
+    }
+    60% {
+        background-image: url(../img/background4.jpg);
+    }
+    80% {
+        background-image: url(../img/background5.jpg);
+    }
+    100% {
+        background-image: url(../img/background1.jpg);
+    }
+}

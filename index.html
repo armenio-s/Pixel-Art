@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" >
+  <meta charset="utf-8">
+  <title>Pixel It!</title>
+  <link rel="icon" type="image/png" href="img/batman.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
+  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+  <body>
+      <header class="encabezado">
+        <img class="logo" src="img/logo.png" alt="Imagen del logotipo">
+        <h1>Pixel It!</h1>
+      </header>
+
+      <div class="container">
+        <section class="col-90">
+          <div id="grilla-pixeles" class="cursor-personalizado"></div>
+        </section>
+
+        <section class="col-10">
+          <ul class="input-color">
+            <li>
+              <span id="indicador-de-color" class="cursor-personalizado"></span>
+            </li>
+            <li>
+              <input id="color-personalizado" class="input-color" type="color" title="Color personalizado" value="#ffffff"/>
+            </li>
+            <li>
+              <button id="lata" type="button" name="button" title="Pintar todo"><i class="fas fa-fill-drip"></i></button>
+            </li>
+            <li>
+              <button id="borrador" type="button" name="button" title="Borrador"><i class="fas fa-eraser"></i></button>
+            </li>
+          </ul>
+          <button id="guardar" type="button" name="button" title="Guardar"><i class="fas fa-save"></i></button>
+          <button id="borrar" type="button" name="button" title="Borrar todo"><i class="fas fa-times-circle"></i></button>
+        </section>
+      </div>
+
+      <section class="herramientas">
+        <ul class="input-color">
+          <li>
+            <span id="indicador-de-color" class="cursor-personalizado"></span>
+          </li>
+          <li>
+            <input id="color-personalizado" class="input-color" type="color" title="Color personalizado" value="#ffffff"/>
+          </li>
+          <li>
+            <button id="lata" type="button" name="button" title="Pintar todo"><i class="fas fa-fill-drip"></i></button>
+          </li>
+          <li>
+            <button id="borrador" type="button" name="button" title="Borrador"><i class="fas fa-eraser"></i></button>
+          </li>
+          <li>
+            <button id="guardar" type="button" name="button" title="Guardar"><i class="fas fa-save"></i></button>
+          </li>
+          <li>
+            <button id="borrar" type="button" name="button" title="Borrar todo"><i class="fas fa-times-circle"></i></button>
+          </li>
+        </ul>
+      </section>
+
+      <section id="paleta"></section>
+
+    <h3>¡Seleccioná un superhéroe y modificalo como quieras!</h3>
+      <ul class="imgs">
+       <li> <img id="batman" src="img/batman.png" alt="Cargar a Batman en la grilla"></li>
+       <li> <img id="wonder" src="img/wonder.png" alt="Cargar a Wonder Woman en la grilla"></li>
+       <li> <img id="flash" src="img/flash.png" alt="Cargar a Flash en la grilla"></li>
+       <li><img id="invisible" src="img/invisible.png" alt="Cargar a Invisible en la grilla"></li>
+      </ul>
+
+  <script src="js/jquery-3.1.1.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/html2canvas.js"></script>
+  <script src="js/FileSaver.js"></script>
+  <script src="js/dom-to-json.js"></script>
+  <script src="js/batman.js"></script>
+  <script src="js/flash.js"></script>
+  <script src="js/wonder.js"></script>
+  <script src="js/invisible.js"></script>
+  <script src="js/recursos.js"></script>
+  <script src="js/pixel-art.js"></script>
+  </body>
+</html>
