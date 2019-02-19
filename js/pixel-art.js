@@ -86,13 +86,13 @@ $( "#borrar" ).click(function() {
 var borrar = function() {
   $("#borrador").click(function(){
     $("#indicador-de-color").css("background-color", "white");
-    $(".cursor-personalizado").css("cursor", "url(../img/rubber.png), auto");
+    $(".cursor-personalizado").css("cursor", "url(img/rubber.png), auto");
   });
 }
 
 // Volver al cursor lápiz cuando se seleccione el indicador de color o un color de la paleta.
 $("#indicador-de-color, #paleta").click(function(){
-  $(".cursor-personalizado").css("cursor", "url(../img/pencil.png), auto");
+  $(".cursor-personalizado").css("cursor", "url(img/pencil.png), auto");
 });
 
 //Función para pintar toda la grilla.

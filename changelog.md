@@ -11,7 +11,7 @@ Todos los cambios realizados en este repositorio están aquí.
 ### Changed
 - Tipografía.
 - Layout para mobile.
-- Cambio de background.
+- Cambio de background por galeria.
 
 ### Removed
 
